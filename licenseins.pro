@@ -15,19 +15,20 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 
-SOURCES += main.cpp \
-    CmdParameter.cpp \
-    CmdParser.cpp \
-    LicenseImp.cpp \
-    LicenseInsImp.cpp \
-    LicenseDelImp.cpp \
-    LicenseChangeImp.cpp
+SOURCES += \
+    sources/CmdParameter.cpp \
+    sources/CmdParser.cpp \
+    sources/LicenseChangeImp.cpp \
+    sources/LicenseDelImp.cpp \
+    sources/LicenseImp.cpp \
+    sources/LicenseInsImp.cpp \
+    sources/main.cpp
 
 HEADERS += \
-    CmdParameter.h \
-    CmdParser.h \
-    Exception.h \
-    LicenseImp.h \
-    LicenseInsImp.h \
-    LicenseDelImp.h \
-    LicenseChangeImp.h
+    sources/CmdParameter.h \
+    sources/CmdParser.h \
+    sources/Exception.h \
+    sources/LicenseChangeImp.h \
+    sources/LicenseDelImp.h \
+    sources/LicenseImp.h \
+    sources/LicenseInsImp.h
